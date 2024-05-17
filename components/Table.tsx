@@ -49,7 +49,7 @@ export default function Table({ headers, data, buttons, caption }: TableProps) {
                 </tr>
               )}
               footer={() => (
-                <div className="bg-white flex justify-left space-x-4">
+                <div className="flex justify-left space-x-4">
                   {buttons.map((description, index) => (
                     <Button key={index} style={{ borderRadius: '8px' }}>{description}</Button>
                   ))}
